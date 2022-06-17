@@ -3,8 +3,6 @@ import os
 import telebot
 from telebot import types
 
-from app.handlers import haha
-
 TOKEN = os.getenv('TELEGRAM_TOKEN')
 
 bot = telebot.TeleBot(TOKEN)
